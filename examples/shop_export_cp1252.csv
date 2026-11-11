@@ -1,0 +1,9 @@
+Kunde;E-Mail;Telefon;Artikel;Kaufdatum;Einwilligung
+Erika Mustermann;erika@example.com;030 23125 301;Einlagen orthopädisch;03.11.2026;ja
+Max Mustermann;max@example.com;089 99998 302;Kompressionsstrümpfe;2026-10-28;ja
+Lieschen Müller;lieschen@example.com;0171 39200 03;Rollator-Wartung;31.02.2026;ja
+;;;;;
+Otto Normalverbraucher;otto-at-example.com;040 66969 304;Einlagen;01.11.2026;nein
+Erika Mustermann;ERIKA@example.com;030 23125 301;Einlagen orthopädisch;03.11.2026;ja
+Jürgen Beispiel;juergen@example.com;0221 4710 306;;05.11.2026;ja
+Größe;gross@example.com;069 90009 307;Einlagen;06.11.2026;ja;Extra

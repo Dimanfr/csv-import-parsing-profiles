@@ -1,0 +1,17 @@
+{
+  "name": "Default profile for German shop exports",
+  "encoding": "auto",
+  "delimiter": "auto",
+  "date_formats": ["%d.%m.%Y", "%Y-%m-%d", "%d/%m/%Y", "%d.%m.%Y %H:%M"],
+  "skip_empty_rows": true,
+  "dedup_fields": ["name", "email", "product", "purchase_date"],
+  "min_phone_digits": 7,
+  "fields": [
+    {"name": "name",          "aliases": ["Name", "Kunde", "Kundenname", "Customer Name"], "required": true},
+    {"name": "email",         "aliases": ["E-Mail", "Email", "Mail"], "type": "email"},
+    {"name": "phone",         "aliases": ["Telefon", "Tel", "Phone", "Mobil"], "type": "phone"},
+    {"name": "product",       "aliases": ["Artikel", "Produkt", "Product", "Item"], "required": true},
+    {"name": "purchase_date", "aliases": ["Kaufdatum", "Datum", "Purchase Date", "Date"], "type": "date", "required": true},
+    {"name": "consent",       "aliases": ["Einwilligung", "Consent"]}
+  ]
+}
